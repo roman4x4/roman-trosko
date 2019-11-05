@@ -1,0 +1,15 @@
+<suite name="Tests for n26 Home challenge" configfailurepolicy="continue">
+<parameter name="environment" value="default"/>
+	<test name="Test Products Api">
+		<classes>
+			<class name="rtn26task3.ProductsApiTests">
+				<methods>
+					<include name="testGetProductByID" />
+					<include name="testAddProductNameValidations" />
+					<include name="testDeleteProduct" />
+					<include name="testGetProducts" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 

@@ -1,0 +1,1 @@
+mvn clean test -Dsurefire.suiteXmlFiles=%cd%\testsuites\test_mobile_rtn26hc_task2.xml

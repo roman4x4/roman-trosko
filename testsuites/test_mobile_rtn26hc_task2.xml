@@ -1,0 +1,13 @@
+<suite name="Tests for n26 Home challenge Mobile" configfailurepolicy="continue">
+<parameter name="environment" value="default"/>
+	<test name="Test Mobile App">
+		<classes>
+			<class name="rtn26task2.MobileTests">
+				<methods>
+					<include name="testFilteringAccountList" />
+					<include name="testClickingCards" />					
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 
