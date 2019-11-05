@@ -1,0 +1,248 @@
+
+d:\n26HomeChallenge\roman-trosko>mvn clean test -Dsurefire.suiteXmlFiles=d:\n26HomeChallenge\roman-trosko\testsuites\test_mobile_rtn26hc_task2.xml 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< com.rtrosko:n26hc >--------------------------
+[INFO] Building n26hc 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for commons-io:commons-io:jar:2.6 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ n26hc ---
+[INFO] Deleting d:\n26HomeChallenge\roman-trosko\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ n26hc ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory d:\n26HomeChallenge\roman-trosko\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ n26hc ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 13 source files to d:\n26HomeChallenge\roman-trosko\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ n26hc ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ n26hc ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to d:\n26HomeChallenge\roman-trosko\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.0:test (default-test) @ n26hc ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+
+Checking header text
+Getting text of element: Header text
+Locator: //android.view.ViewGroup[@resource-id='org.gnucash.android:id/toolbar']/android.widget.TextView
+Text found: Konten
+
+
+
+Assertion: checking if actual value [Konten] equals to expected value [Konten]
+Assertion result: Successful
+
+Tapping ALLE Tab
+Clicking element: Tab ALL
+Locator: //android.support.v7.app.ActionBar.Tab[2]
+
+
+
+Check 5 accounts displayed
+
+Assertion: checking if actual value [5] equals to expected value [5]
+Assertion result: Successful
+Clicking element: Search Icon in header
+Locator: //android.widget.TextView[@content-desc='Suchen']
+
+
+Typing text [ab] into element: Search Input in header
+Locator: search_src_text
+
+
+
+Check 3 accounts displayed
+
+Assertion: checking if actual value [3] equals to expected value [3]
+Assertion result: Successful
+
+Check account names displayed
+Getting text of element: Account Card 1 secondary text
+Locator: //*[@resource-id='org.gnucash.android:id/account_recycler_view']/android.widget.FrameLayout[1]//*[@resource-id='org.gnucash.android:id/primary_text']
+Text found: Abfall
+
+
+Getting text of element: Account Card 1 secondary text
+Locator: //*[@resource-id='org.gnucash.android:id/account_recycler_view']/android.widget.FrameLayout[1]//*[@resource-id='org.gnucash.android:id/primary_text']
+Text found: Abfall
+
+
+Getting text of element: Account Card 2 secondary text
+Locator: //*[@resource-id='org.gnucash.android:id/account_recycler_view']/android.widget.FrameLayout[2]//*[@resource-id='org.gnucash.android:id/primary_text']
+Text found: Abonnements
+
+
+Getting text of element: Account Card 1 secondary text
+Locator: //*[@resource-id='org.gnucash.android:id/account_recycler_view']/android.widget.FrameLayout[1]//*[@resource-id='org.gnucash.android:id/primary_text']
+Text found: Abfall
+
+
+Getting text of element: Account Card 2 secondary text
+Locator: //*[@resource-id='org.gnucash.android:id/account_recycler_view']/android.widget.FrameLayout[2]//*[@resource-id='org.gnucash.android:id/primary_text']
+Text found: Abonnements
+
+
+Getting text of element: Account Card 3 secondary text
+Locator: //*[@resource-id='org.gnucash.android:id/account_recycler_view']/android.widget.FrameLayout[3]//*[@resource-id='org.gnucash.android:id/primary_text']
+Text found: Sozialabgaben
+
+
+
+Check Erträge and Fremdkapital accounts not displayed
+Getting text of element: Account Card 1 secondary text
+Locator: //*[@resource-id='org.gnucash.android:id/account_recycler_view']/android.widget.FrameLayout[1]//*[@resource-id='org.gnucash.android:id/primary_text']
+Text found: Abfall
+
+
+Getting text of element: Account Card 2 secondary text
+Locator: //*[@resource-id='org.gnucash.android:id/account_recycler_view']/android.widget.FrameLayout[2]//*[@resource-id='org.gnucash.android:id/primary_text']
+Text found: Abonnements
+
+
+Getting text of element: Account Card 3 secondary text
+Locator: //*[@resource-id='org.gnucash.android:id/account_recycler_view']/android.widget.FrameLayout[3]//*[@resource-id='org.gnucash.android:id/primary_text']
+Text found: Sozialabgaben
+
+
+Getting text of element: Account Card 1 secondary text
+Locator: //*[@resource-id='org.gnucash.android:id/account_recycler_view']/android.widget.FrameLayout[1]//*[@resource-id='org.gnucash.android:id/primary_text']
+Text found: Abfall
+
+
+Getting text of element: Account Card 2 secondary text
+Locator: //*[@resource-id='org.gnucash.android:id/account_recycler_view']/android.widget.FrameLayout[2]//*[@resource-id='org.gnucash.android:id/primary_text']
+Text found: Abonnements
+
+
+Getting text of element: Account Card 3 secondary text
+Locator: //*[@resource-id='org.gnucash.android:id/account_recycler_view']/android.widget.FrameLayout[3]//*[@resource-id='org.gnucash.android:id/primary_text']
+Text found: Sozialabgaben
+
+
+Clicking element: Back Button in header
+Locator: //android.widget.ImageButton[@content-desc='Minimieren']
+
+
+
+Assertion: checking if actual value [5] equals to expected value [5]
+Assertion result: Successful
+
+Check Erträge and Fremdkapital accounts displayed
+Getting text of element: Account Card 1 secondary text
+Locator: //*[@resource-id='org.gnucash.android:id/account_recycler_view']/android.widget.FrameLayout[1]//*[@resource-id='org.gnucash.android:id/primary_text']
+Text found: Aktiva
+
+
+Getting text of element: Account Card 2 secondary text
+Locator: //*[@resource-id='org.gnucash.android:id/account_recycler_view']/android.widget.FrameLayout[2]//*[@resource-id='org.gnucash.android:id/primary_text']
+Text found: Anfangsbestand
+
+
+Getting text of element: Account Card 3 secondary text
+Locator: //*[@resource-id='org.gnucash.android:id/account_recycler_view']/android.widget.FrameLayout[3]//*[@resource-id='org.gnucash.android:id/primary_text']
+Text found: Aufwendungen
+
+
+Getting text of element: Account Card 4 secondary text
+Locator: //*[@resource-id='org.gnucash.android:id/account_recycler_view']/android.widget.FrameLayout[4]//*[@resource-id='org.gnucash.android:id/primary_text']
+Text found: Erträge
+
+
+Getting text of element: Account Card 1 secondary text
+Locator: //*[@resource-id='org.gnucash.android:id/account_recycler_view']/android.widget.FrameLayout[1]//*[@resource-id='org.gnucash.android:id/primary_text']
+Text found: Aktiva
+
+
+Getting text of element: Account Card 2 secondary text
+Locator: //*[@resource-id='org.gnucash.android:id/account_recycler_view']/android.widget.FrameLayout[2]//*[@resource-id='org.gnucash.android:id/primary_text']
+Text found: Anfangsbestand
+
+
+Getting text of element: Account Card 3 secondary text
+Locator: //*[@resource-id='org.gnucash.android:id/account_recycler_view']/android.widget.FrameLayout[3]//*[@resource-id='org.gnucash.android:id/primary_text']
+Text found: Aufwendungen
+
+
+Getting text of element: Account Card 4 secondary text
+Locator: //*[@resource-id='org.gnucash.android:id/account_recycler_view']/android.widget.FrameLayout[4]//*[@resource-id='org.gnucash.android:id/primary_text']
+Text found: Erträge
+
+
+Getting text of element: Account Card 5 secondary text
+Locator: //*[@resource-id='org.gnucash.android:id/account_recycler_view']/android.widget.FrameLayout[5]//*[@resource-id='org.gnucash.android:id/primary_text']
+Text found: Fremdkapital
+
+
+
+Tapping ALLE Tab
+Clicking element: Tab ALL
+Locator: //android.support.v7.app.ActionBar.Tab[2]
+
+
+
+Check Aufwendungen elements
+Getting text of element: Account Card 1 secondary text
+Locator: //*[@resource-id='org.gnucash.android:id/account_recycler_view']/android.widget.FrameLayout[1]//*[@resource-id='org.gnucash.android:id/primary_text']
+Text found: Aktiva
+
+
+Getting text of element: Account Card 2 secondary text
+Locator: //*[@resource-id='org.gnucash.android:id/account_recycler_view']/android.widget.FrameLayout[2]//*[@resource-id='org.gnucash.android:id/primary_text']
+Text found: Anfangsbestand
+
+
+Getting text of element: Account Card 3 secondary text
+Locator: //*[@resource-id='org.gnucash.android:id/account_recycler_view']/android.widget.FrameLayout[3]//*[@resource-id='org.gnucash.android:id/primary_text']
+Text found: Aufwendungen
+
+
+Getting text of element: Account Card 3 secondary text
+Locator: //*[@resource-id='org.gnucash.android:id/account_recycler_view']/android.widget.FrameLayout[3]//*[@resource-id='org.gnucash.android:id/secondary_text']
+Text found: 15 Unterkonten
+
+
+
+Assertion: checking if actual value [15 Unterkonten] equals to expected value [15 Unterkonten]
+Assertion result: Successful
+Clicking element: Account Card 3
+Locator: //*[@resource-id='org.gnucash.android:id/account_recycler_view']/android.widget.FrameLayout[3]
+
+
+Getting text of element: Account Card 1 secondary text
+Locator: //*[@resource-id='org.gnucash.android:id/account_recycler_view']/android.widget.FrameLayout[1]//*[@resource-id='org.gnucash.android:id/primary_text']
+Text found: Bildung
+
+
+Getting text of element: Account Card 2 secondary text
+Locator: //*[@resource-id='org.gnucash.android:id/account_recycler_view']/android.widget.FrameLayout[2]//*[@resource-id='org.gnucash.android:id/primary_text']
+Text found: Computer
+
+
+Clicking element: Account Card 2
+Locator: //*[@resource-id='org.gnucash.android:id/account_recycler_view']/android.widget.FrameLayout[2]
+
+
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 38.958 s - in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 43.398 s
+[INFO] Finished at: 2019-11-05T23:12:59+01:00
+[INFO] ------------------------------------------------------------------------
